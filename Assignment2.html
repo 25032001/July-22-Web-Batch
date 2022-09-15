@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            height: 550px;
+            width: 700px;
+            margin-left: 25%;
+            margin-top: 7%;
+            background-color: antiquewhite;
+        }
+        .TopSection{
+            height: 80px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .TopSection .inputdeta{
+            height: 40px;
+            width: 350px;
+            font-size: 20px;
+        }
+        .btn{
+            background-color: rgb(52, 52, 104);
+            color: cornsilk;
+            padding: 10px;
+            width: 150px;
+            font-size: 17px;
+            font-weight: 600;
+            border-radius: 50px;
+        }
+        .btn:hover{
+            background-color: rgb(30, 30, 80);
+            cursor: pointer;
+        }
+
+        .BottomSection{
+            display: flex;
+            margin: 10px;
+        }
+
+        .card{
+            border: 2px solid black;
+            height: 400px;
+            width: 300px;
+            border-radius: 6%;
+            margin: 5px;
+            text-align: center;
+    
+        }
+        .image img{
+            border-radius: 50%;
+            text-align: center;
+            margin-top: 25px;
+        }
+        .image h2{
+            font-weight: 800;
+            font-size: 30px;
+        }
+        .sidebar{
+            border: 2px solid black;
+            width: 400px;
+            border-radius:6% ;
+        }
+        .sidebar li{
+            list-style-type: none;
+            font-size: 20px;
+            padding: 10px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="TopSection">
+             <input type="text" class="inputdeta" placeholder="Search here">
+            <button class="btn">Search</button> 
+        </div>
+
+        <div class="BottomSection">
+            <div class="card">
+               <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRok7m50IzHaTUwlzbkvmFO4AyGdvrkXNV2jQ&usqp=CAU" alt=""
+                height="150px" width="150px">
+                <div class="content">
+                    <h2>Vaish Khomane</h2>
+                    <h4>vaishnavi.khomane25@gmail.com</h4>
+                    <button class="btn">Profile</button>
+                   </div>
+               </div>
+            
+            </div> 
+            <div class="sidebar">
+                <ul>
+                    <li>Name:</li>
+                    <li>City:</li>
+                    <li>Email Id:</li>
+                    <li>Gender:</li>
+                    <li>Github:</li>
+                    <li>Linkdin:</li>
+                    <li>Facebook:</li>
+                    <li>Instagram:</li>
+                </ul>
+
+            </div>           
+        </div>
+    </div>
+</body>
+</html>
